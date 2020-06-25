@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngrx-store-initializer": [
+        "dist/ngrx-store-initializer/ngrx-store-initializer",
+        "dist/ngrx-store-initializer"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
